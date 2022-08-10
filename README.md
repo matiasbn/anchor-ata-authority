@@ -6,20 +6,19 @@
 
 ## Description
 
-In Solana, an Associated Token Account (ATA) is used to transfer tokens between users. An ATA has an special field called "Authority" which can be used to define an user that has some allowance to transfer tokens in behalf of the owner of the ATA. This Authority has certain balance that decreases everytime she does a transfer. The ATA owner can increase and decrease this allowance at her will.
-
-In this PoC, we are going to show how to manage this Authority, by increasing and decreasing her allowance.
-asdad
+In Solana, an Associated Token Account (ATA) is used to transfer tokens between users. An ATA has a particular field called "Authority," which can be used to define a user that has some allowance to transfer tokens on behalf of the owner of the ATA. This Authority has a certain balance that decreases every time she does a transfer. The ATA owner can increase and reduce this allowance at her will.
+In this PoC, we will show how to manage this Authority by increasing and decreasing her allocation and changing the Authority address, all while using the Anchor framework.
 
 ## Steps to reproduce
 
-1. Step 1
-2. Step 2
-3. Step 3
-4. Step 4
-5. Step 5
-6. Step 6
-7. Step 7
+1. Create a function to initialize a Token Mint.
+2. Create a function to create an ATA and set the Authority to a user.
+3. Create a function to assign the Authority's allowance.
+4. Create a function to change the ATA's Authority.
+5. Execute the function 1. and review the logs
+6. Execute function 2., and then transfer by using the Authority to another user's ATA.
+7. Execute the function 3., and then
+8. Step 7
 
 ## How to run
 
